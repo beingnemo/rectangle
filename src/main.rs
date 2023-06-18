@@ -1,13 +1,9 @@
+mod rectangles;
+mod using_tuple;
+mod using_structs;
+
 fn main() {
-    let width1 = 30;
-    let height1 = 50;
-
-    println!(
-        "The area of the rectangle is {} square pixels.",
-        area(width1, height1)
-    );
-}
-
-fn area(width: u32, height: u32) -> u32 {
-    width * height
+    rectangles::rectangles();
+    using_tuple::tuple_rectangle();
+    using_structs::rectangle_struct();
 }
