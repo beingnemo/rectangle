@@ -18,7 +18,8 @@ impl Rectangle {
         width: size,
         height: size,
     }
-  }
+  
+}
 }
 
 pub fn rectangle_method_mp() {
